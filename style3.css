@@ -102,16 +102,3 @@ h3 {
   color: #d04426; /* Cor azul claro para h3 */
 }
 
-button {
-  background-color: #d04426; /* Cor laranja do PowerPoint para o botão */
-  color: #fff; /* Cor do texto branco */
-  padding: 10px 20px; /* Ajuste conforme necessário */
-  border: none; /* Remover a borda padrão do botão */
-  border-radius: 5px; /* Borda arredondada para o botão */
-  cursor: pointer; /* Cursor ao passar o mouse */
-  transition: background-color 0.3s; /* Transição suave para a mudança de cor */
-}
-
-button:hover {
-  background-color: #a33315; /* Mudança de cor suave ao passar o mouse */
-}

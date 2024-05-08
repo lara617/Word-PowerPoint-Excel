@@ -94,16 +94,4 @@ h2 {
   color: #5ab54a; /* Cor azul claro para h3 */
 }
 
-button {
-  background-color: #5ab54a; /* Cor verde do Excel para o botão */
-  color: #fff; /* Cor do texto branco */
-  padding: 10px 20px; /* Ajuste conforme necessário */
-  border: none; /* Remover a borda padrão do botão */
-  border-radius: 5px; /* Borda arredondada para o botão */
-  cursor: pointer; /* Cursor ao passar o mouse */
-  transition: background-color 0.3s; /* Transição suave para a mudança de cor */
-}
 
-button:hover {
-  background-color: #3e753f; /* Mudança de cor suave ao passar o mouse */
-}

@@ -7,3 +7,9 @@ function showContent(id) {
   var content = document.getElementById(id);
   content.classList.toggle("content-hidden");
 }
+
+document.addEventListener('keydown', function(event) {
+  if (event.keyCode === 37 || event.keyCode === 39) { // 37 é a seta para a esquerda, 39 é a seta para a direita
+      goToHome(); // Chama a função para redirecionar para a página inicial
+  }
+});

@@ -1,0 +1,117 @@
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding-top: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #d04426; /* Cor laranja do PowerPoint para o cabeçalho */
+  padding: 10px 0; /* Ajuste conforme necessário */
+}
+
+header img {
+  position: absolute;
+  left: 10px; /* Ajuste a posição horizontal conforme necessário */
+  top: 50%; /* Posiciona o logotipo verticalmente no meio */
+  transform: translateY(-50%);
+  width: 60px; /* Ajuste conforme necessário */
+  height: auto;
+  z-index: 1; /* Logotipo à frente do texto */
+}
+
+header h1 {
+  background-color: #a33315; /* Laranja mais escuro para o título */
+  padding: 5px 10px; /* Ajuste conforme necessário */
+  border-radius: 5px; /* Borda arredondada para o título */
+  color: #fff; /* Cor do texto branco */
+  position: relative; /* Garante que o z-index funcione */
+  z-index: 0; /* Título atrás do logotipo */
+}
+
+header h1::after {
+  content: ""; /* Cria um elemento pseudo-elemento para limpar o espaço após o título */
+  display: block;
+  clear: both;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 80px; /* Ajuste conforme necessário */
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Cor azul claro para os links */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  color: #d04426; /* Cor azul claro para h3 */
+}
+
+button {
+  background-color: #d04426; /* Cor laranja do PowerPoint para o botão */
+  color: #fff; /* Cor do texto branco */
+  padding: 10px 20px; /* Ajuste conforme necessário */
+  border: none; /* Remover a borda padrão do botão */
+  border-radius: 5px; /* Borda arredondada para o botão */
+  cursor: pointer; /* Cursor ao passar o mouse */
+  transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+button:hover {
+  background-color: #a33315; /* Mudança de cor suave ao passar o mouse */
+}
